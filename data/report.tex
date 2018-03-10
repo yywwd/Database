@@ -1,0 +1,28 @@
+% combine all deliveries.
+
+\documentclass{article}
+\usepackage[final]{pdfpages}
+
+\begin{document}
+%  cover sheet
+\includepdf{cover_sheet.pdf} 
+
+% abstract & description
+\includepdf[page=1-3]{abstract+description.pdf} 
+
+% ERD
+\includepdf{erd.pdf} 
+
+% logical
+\includepdf{logical.pdf} 
+
+% Screenshots
+\includepdf[page=1-9]{screenshots.pdf} 
+
+
+% retrospective
+\includepdf{project_retrospective.pdf} 
+
+% conclusion
+\includepdf{conclusion.pdf}
+\end{document}
